@@ -1,0 +1,83 @@
+<PISI>
+    <Source>
+        <Name>openfx-arena</Name>
+        <Packager>
+            <Name>Sönke Behrendt</Name>
+            <Email>thesoenke@outlook.com</Email>
+        </Packager>
+        <License>BSD-3-Clause</License>
+        <PartOf>multimedia.graphics</PartOf>
+        <Summary xml:lang="en">A set of OpenFX visual effect plugins</Summary>
+        <Description xml:lang="en">A set of OpenFX visual effect plugins
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>openfx-arena</Name>
+        <Summary xml:lang="en">A set of OpenFX visual effect plugins</Summary>
+        <Description xml:lang="en">A set of OpenFX visual effect plugins
+</Description>
+        <PartOf>multimedia.graphics</PartOf>
+        <Files>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Info.plist</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Linux-x86-64/Arena.ofx</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/Extra.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/Extra.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/fr.inria.openfx.OpenRaster.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/fr.inria.openfx.OpenRaster.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/fr.inria.openfx.ReadCDR.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/fr.inria.openfx.ReadCDR.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/fr.inria.openfx.ReadKrita.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/fr.inria.openfx.ReadKrita.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/fr.inria.openfx.ReadMisc.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/fr.inria.openfx.ReadMisc.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/fr.inria.openfx.ReadPDF.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/fr.inria.openfx.ReadPDF.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Arc.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Arc.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Charcoal.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Charcoal.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Edges.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Edges.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Implode.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Implode.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Modulate.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Modulate.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Oilpaint.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Oilpaint.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Polar.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Polar.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Polaroid.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Polaroid.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.ReadPSD.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.ReadPSD.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.ReadSVG.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.ReadSVG.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Reflection.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Reflection.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Roll.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Roll.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Sketch.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Sketch.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Swirl.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Swirl.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Text.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Text.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Texture.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Texture.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Tile.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Tile.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Wave.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/Arena.ofx.bundle/Contents/Resources/net.fxarena.openfx.Wave.svg</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-01-07</Date>
+            <Version>2.1.9</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Sönke Behrendt</Name>
+            <Email>thesoenke@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>
