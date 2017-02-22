@@ -1,6 +1,6 @@
 name       : openfx-arena
 version    : 2.1.9
-release    : 2
+release    : 3
 source     :
     - https://github.com/MrKepzie/Natron/releases/download/2.1.9/openfx-arena-2.1.9.tar.xz : 6ee279e5975ff2ba760f579674e02cf9ea7f84bee1536c4f57aee164f7086a61
 license    : BSD-3-Clause
