@@ -1,19 +1,21 @@
 name       : openfx-arena
-version    : 2.1.9
-release    : 3
+version    : 2.3.0
+release    : 4
 source     :
-    - https://github.com/MrKepzie/Natron/releases/download/2.1.9/openfx-arena-2.1.9.tar.xz : 6ee279e5975ff2ba760f579674e02cf9ea7f84bee1536c4f57aee164f7086a61
-license    : BSD-3-Clause
+    - git|https://github.com/MrKepzie/openfx-arena.git : Natron-2.3.0
+license    : GPL-2.0
 component  : multimedia.graphics
+networking : yes
 summary    : A set of OpenFX visual effect plugins
 description: |
     A set of OpenFX visual effect plugins
-networking : yes
 builddeps  :
     - pkgconfig(autotrace)
     - pkgconfig(IlmBase)
     - pkgconfig(libcdr-0.1)
     - pkgconfig(libjpeg)
+    - pkgconfig(libopenjp2)
+    - pkgconfig(libraw_r)
     - pkgconfig(librevenge-0.0)
     - pkgconfig(librsvg-2.0)
     - pkgconfig(libtiff-4)
@@ -24,6 +26,7 @@ builddeps  :
     - pkgconfig(OpenEXR)
     - pkgconfig(pangocairo)
     - pkgconfig(poppler)
+    - bzip2-devel
 build      : |
     %make CONFIG=release IM=7
 install    : |
