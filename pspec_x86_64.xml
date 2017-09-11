@@ -2,8 +2,8 @@
     <Source>
         <Name>openfx-arena</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
         </Packager>
         <License>GPL-2.0</License>
         <PartOf>multimedia.graphics</PartOf>
@@ -72,12 +72,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2017-07-22</Date>
+        <Update release="5">
+            <Date>2017-09-11</Date>
             <Version>2.3.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
