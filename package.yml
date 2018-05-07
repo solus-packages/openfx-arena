@@ -1,16 +1,15 @@
 name       : openfx-arena
 version    : 2.3.4
-release    : 11
+release    : 12
 source     :
     - git|https://github.com/MrKepzie/openfx-arena.git : Natron-2.3.4
-license    : GPL-2.0
+license    : GPL-2.0-only
 component  : multimedia.graphics
 networking : yes
 summary    : A set of OpenFX visual effect plugins
 description: |
     A set of OpenFX visual effect plugins
 builddeps  :
-    - pkgconfig(autotrace)
     - pkgconfig(IlmBase)
     - pkgconfig(libcdr-0.1)
     - pkgconfig(libjpeg)

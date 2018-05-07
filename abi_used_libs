@@ -1,7 +1,7 @@
 libGL.so.1
 libMagick++-7.Q16HDRI.so.4
-libMagickCore-7.Q16HDRI.so.5
-libMagickWand-7.Q16HDRI.so.5
+libMagickCore-7.Q16HDRI.so.6
+libMagickWand-7.Q16HDRI.so.6
 libOpenColorIO.so.1
 libc.so.6
 libcairo.so.2
