@@ -2,8 +2,8 @@
     <Source>
         <Name>openfx-arena</Name>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>GPL-2.0-only</License>
         <PartOf>multimedia.graphics</PartOf>
@@ -72,12 +72,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="13">
-            <Date>2018-05-18</Date>
+        <Update release="14">
+            <Date>2018-09-28</Date>
             <Version>2.3.11</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
