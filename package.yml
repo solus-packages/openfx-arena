@@ -1,8 +1,8 @@
 name       : openfx-arena
-version    : 2.3.11
-release    : 14
+version    : 2.3.14
+release    : 15
 source     :
-    - git|https://github.com/NatronGitHub/openfx-arena.git : Natron-2.3.11
+    - git|https://github.com/NatronGitHub/openfx-arena.git : Natron-2.3.14
 license    : GPL-2.0-only
 component  : multimedia.graphics
 networking : yes
