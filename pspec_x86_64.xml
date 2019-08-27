@@ -2,8 +2,8 @@
     <Source>
         <Name>openfx-arena</Name>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-2.0-only</License>
         <PartOf>multimedia.graphics</PartOf>
@@ -72,12 +72,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="16">
-            <Date>2019-07-15</Date>
+        <Update release="17">
+            <Date>2019-08-27</Date>
             <Version>2.3.14</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
