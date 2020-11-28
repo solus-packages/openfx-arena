@@ -1,6 +1,6 @@
 name       : openfx-arena
 version    : 2.3.15
-release    : 24
+release    : 25
 source     :
     - git|https://github.com/NatronGitHub/openfx-arena.git : Natron-2.3.15
 license    : GPL-2.0-only
@@ -11,6 +11,10 @@ description: |
     A set of OpenFX visual effect plugins
 builddeps  :
     - pkgconfig(IlmBase)
+    - pkgconfig(Magick++)
+    - pkgconfig(OpenColorIO)
+    - pkgconfig(OpenEXR)
+    - pkgconfig(fftw3)
     - pkgconfig(libcdr-0.1)
     - pkgconfig(libheif)
     - pkgconfig(libjpeg)
@@ -21,9 +25,6 @@ builddeps  :
     - pkgconfig(libtiff-4)
     - pkgconfig(libwebp)
     - pkgconfig(libzip)
-    - pkgconfig(Magick++)
-    - pkgconfig(OpenColorIO)
-    - pkgconfig(OpenEXR)
     - pkgconfig(pangocairo)
     - pkgconfig(poppler)
     - bzip2-devel
