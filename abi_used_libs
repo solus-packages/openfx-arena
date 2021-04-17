@@ -1,3 +1,4 @@
+UNKNOWN
 libGL.so.1
 libMagick++-7.Q16HDRI.so.5
 libMagickCore-7.Q16HDRI.so.9
@@ -16,7 +17,7 @@ libpango-1.0.so.0
 libpangocairo-1.0.so.0
 libpangoft2-1.0.so.0
 libpoppler-glib.so.8
-libpoppler.so.107
+libpoppler.so.108
 libpthread.so.0
 librevenge-0.0.so.0
 librevenge-stream-0.0.so.0

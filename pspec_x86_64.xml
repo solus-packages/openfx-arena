@@ -2,8 +2,8 @@
     <Source>
         <Name>openfx-arena</Name>
         <Packager>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@getsol.us</Email>
         </Packager>
         <License>GPL-2.0-only</License>
         <PartOf>multimedia.graphics</PartOf>
@@ -74,12 +74,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="27">
-            <Date>2021-02-28</Date>
+        <Update release="28">
+            <Date>2021-04-17</Date>
             <Version>2.3.15</Version>
             <Comment>Packaging update</Comment>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@getsol.us</Email>
         </Update>
     </History>
 </PISI>
