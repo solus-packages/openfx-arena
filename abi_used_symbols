@@ -1,9 +1,12 @@
+UNKNOWN:_ZN12GlobalParamsC1EPKc
+UNKNOWN:_ZN12GlobalParamsD1Ev
 UNKNOWN:_ZTIN11OpenColorIO2v19ExceptionE
 UNKNOWN:_ZTIN6Magick7WarningE
 UNKNOWN:_ZTIN6Magick9ExceptionE
 UNKNOWN:_ZTVN6Magick15DrawableGravityE
 UNKNOWN:_ZTVN6Magick17DrawablePointSizeE
 UNKNOWN:_ZTVN6Magick19DrawableStrokeWidthE
+UNKNOWN:globalParams
 libGL.so.1:glBegin
 libGL.so.1:glBitmap
 libGL.so.1:glBlendFunc
@@ -338,9 +341,6 @@ libpoppler-glib.so.8:poppler_document_get_page
 libpoppler-glib.so.8:poppler_document_new_from_file
 libpoppler-glib.so.8:poppler_page_get_size
 libpoppler-glib.so.8:poppler_page_render
-libpoppler.so.108:_ZN12GlobalParamsC1EPKc
-libpoppler.so.108:_ZN12GlobalParamsD1Ev
-libpoppler.so.108:globalParams
 libpthread.so.0:__errno_location
 librevenge-0.0.so.0:_ZN10librevenge10RVNGStringC1EPKc
 librevenge-0.0.so.0:_ZN10librevenge10RVNGStringD1Ev
